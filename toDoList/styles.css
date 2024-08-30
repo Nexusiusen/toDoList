@@ -1,0 +1,134 @@
+body 
+{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modalContent {
+  background-color: #fefefe;
+  margin: auto;
+  border: 1px solid #888;
+  width: 60%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#toDoList
+{
+  padding-left: 0; 
+  margin-top: 0;
+}
+.endBox
+{
+  float: right;
+  margin-right: 20px;
+}
+.title
+{
+  background-color: lightgray;
+  padding: 10px;
+  margin-bottom: 0;
+  
+
+}
+.header
+{
+  padding: 10px 0px 0px 0px;
+}
+
+.displayList
+{
+  width: 95%;
+  margin:auto;
+
+}
+
+.modalHeader
+{
+  background-color: yellowgreen;
+  color: white;
+  margin-bottom: 10px;
+  padding: 20px ;
+}
+.modalBody
+{
+  
+  padding: 10px 20px 10px 20px;
+}
+.modalText
+{
+  margin-bottom: 10px;
+}
+
+.btn
+{
+  height: 36px;
+  border-style: none;
+  padding: 10px;
+}
+
+
+.addButtonModal
+{
+  margin: 0 0 30px 20px ;
+}
+
+.addButtonTasks
+{
+  float: right;
+  padding: 10px;
+  margin-left: 10px;
+}
+.toDoList
+{
+  background-color: #F3EAD3;
+  width: 50%;
+  padding-bottom: 10px;
+}
+
+.oswaldFONT {
+ 
+}
+
+li
+{
+  list-style: none;
+  padding:20px;
+}
+
+
+
+
+
